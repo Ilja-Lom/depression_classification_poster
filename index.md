@@ -1,4 +1,5 @@
-
+#
+#
 # Automated Depression Classification Using Deep Learning
 
 
@@ -6,7 +7,7 @@
 ## Why were only Scripted recordings selected?
 Only the speech recordings based on scripted text were used for training, and testing the models. This was to reduce the sample size; unscripted speech is much more variable, so the model will have to be exposed to a greater sample size to extract meaningful information for classification. However, the disadvantage with this approach is the loss of natural expression that is part of speech and could be useful in classifying depression.
 
-## Why was only English selected?
+## Why were only English-spoken recordings selected?
 To ensure the data is homogenous, with reduced variation, only recordings in English were selected. This helps minimise the sample size required for the models to train; additionally, it removes uncontrolled-for variables between languages.
 
 # Conclusions
